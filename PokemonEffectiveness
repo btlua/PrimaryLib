@@ -1,0 +1,28 @@
+--[[
+
+Use loadstring to refer to this table or copy and paste the table
+
+This code returns every pokemon type and their effectiveness against the type
+
+]]
+
+return {
+  ["Normal"] = {
+    ["x1"] = {"Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Fairy","Dragon","Dark"},
+    ["x2"] = {},
+    ["x0.5"] = {"Rock","Steel"},
+    ["x0"] = {"Ghost"}
+  },
+  ["Fire"] = {
+    ["x1"] = {"Normal","Electric","Fighting","Poison","Ground","Flying","Psychic","Ghost","Dark","Fairy"},
+    ["x2"] = {"Grass","Ice","Bug","Steel"},
+    ["x0.5"] = {"Fire","Water","Rock","Dragon"},
+    ["x0"] = {}
+  },
+  ["Water"] = {
+    ["x1"] = {"Normal","Electric","Ice","Fighting","Poison","Flying","Psychic","Bug","Ghost","Dark","Steel","Fairy"},
+    ["x2"] = {"Fire","Ground","Rock"},
+    ["x0.5"] = {"Water","Grass","Dragon"},
+    ["x0"] = {}
+  },
+}
