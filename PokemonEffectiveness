@@ -25,4 +25,40 @@ return {
     ["x0.5"] = {"Water","Grass","Dragon"},
     ["x0"] = {}
   },
+  ["Electric"] = {
+    ["x1"] = {"Normal","Fire","Ice","Fighting","Poison","Psychic","Bug","Rock","Ghost","Dark","Steel","Fairy"},
+    ["x2"] = {"Water"},
+    ["x0.5"] = {"Electric","Grass","Dragon"},
+    ["x0"] = {"Ground"}
+  },
+  ["Grass"] = {
+    ["x1"] = {"Normal","Electric","Ice","Fighting","Psychic","Ghost","Dark","Fairy"},
+    ["x2"] = {"Water","Ground","Rock"},
+    ["x0.5"] = {"Fire","Grass","Poison","Flying","Bug","Dragon","Steel"},
+    ["x0"] = {}
+  },
+  ["Ice"] = {
+    ["x1"] = {"Normal","Electric","Fighting","Poison","Psychic","Bug","Rock","Ghost","Dark","Steel"},
+    ["x2"] = {"Grass","Ground","Flying","Dragon"},
+    ["x0.5"] = {"Fire","Water","Ice","Steel"},
+    ["x0"] = {}
+  }
+  ["Fighting"] = {
+    ["x1"] = {"Fire","Water","Electric","Grass","Fighting","Ground","Dragon"},
+    ["x2"] = {"Normal","Ice","Rock","Dark","Steel"},
+    ["x0.5"] = {"Poison","Flying","Psychic","Bug","Fairy"},
+    ["x0"] = {"Ghost"}
+  },
+  ["Poison"] = {
+    ["x1"] = {"Normal","Fire","Water","Electric","Ice","Fighting","Flying","Psychic","Bug","Dragon","Dark"},
+    ["x2"] = {"Grass","Fairy"},
+    ["x0.5"] = {"Poison","Ground","Rock","Ghost"},
+    ["x0"] = {"Steel"}
+  },
+  ["Ground"] = {
+    ["x1"] = {"Normal","Water","Ice","Fighting","Ground","Psychic","Ghost","Dragon","Dark","Fairy"},
+    ["x2"] = {"Steel","Rock","Poison","Electric","Fire"},
+    ["x0.5"] = {"Bug","Grass"},
+    ["x0"] = {"Flying"}
+  }
 }
