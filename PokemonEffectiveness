@@ -1,6 +1,6 @@
 --[[
 
-Use loadstring to refer to this table or copy and paste the table
+Use a function to refer to this (i.e. loadstring) and index it or copy and paste to index
 
 This code returns every pokemon type and their effectiveness against the type
 
