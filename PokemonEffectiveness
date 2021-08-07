@@ -60,5 +60,59 @@ return {
     ["x2"] = {"Steel","Rock","Poison","Electric","Fire"},
     ["x0.5"] = {"Bug","Grass"},
     ["x0"] = {"Flying"}
+  },
+  ["Flying"] = {
+    ["x1"] = {"Normal","Fire","Water","Ice","Poison","Ground","Flying","Psychic","Ghost","Dragon","Dark","Fairy"},
+    ["x2"] = {"Grass","Fighting","Bug"},
+    ["x0.5"] = {"Electric","Rock","Steel"},
+    ["x0"] = {}
+  },
+  ["Psychic"] = {
+    ["x1"] = {"Normal","Fire","Water","Electric","Grass","Ice","Ground","Flying","Bug","Rock","Ghost","Dragon","Fairy"},
+    ["x2"] = {"Fighting","Poison"},
+    ["x0.5"] = {"Psychic","Steel"},
+    ["x0"] = {"Dragon"}
+  },
+  ["Bug"] = {
+    ["x1"] = {"Normal","Water","Electric","Ice","Ground","Bug","Rock"},
+    ["x2"] = {"Grass","Psychic","Dragon"},
+    ["x0.5"] = {"Fire","Fighting","Poison","Flying","Ghost","Steel","Fairy"},
+    ["x0"] = {}
+  },
+  ["Rock"] = {
+    ["x1"] = {"Normal","Water","Electric","Grass","Poison","Psychic","Rock","Ghost","Dragon","Dark","Fairy"},
+    ["x2"] = {"Fire","Ice","Flying","Bug"},
+    ["x0.5"] = {"Fighting","Ground","Steel"},
+    ["x0"] = {}
+  },
+  ["Ghost"] = {
+    ["x1"] = {"Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Bug","Rock","Dragon","Steel","Fairy"},
+    ["x2"] = {"Psychic","Ghost"},
+    ["x0.5"] = {"Dark"},
+    ["x0"] = {"Normal"}
+  },
+  ["Dragon"] = {
+    ["x1"] = {"Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Dark"},
+    ["x2"] = {"Dragon"},
+    ["x0.5"] = {"Steel"},
+    ["x0"] = {"Fairy"}
+  },
+  ["Dark"] = {
+    ["x1"] = {"Normal","Fire","Water","Electric","Grass","Ice"},
+    ["x2"] = {"Psychic","Ghost"}
+    ["x0.5"] = {"Fighting","Dark","Fairy"},
+    ["x0"] = {}
+  },
+  ["Steel"] = {
+    ["x1"] = {"Normal","Grass","Fighting","Poison","Ground","Flying","Psychic","Bug","Ghost","Dragon","Dark"},
+    ["x2"] = {"Fighting","Rock","Fairy"},
+    ["x0.5"] = {"Fire","Water","Electric","Steel"},
+    ["x0"] = {}
+  },
+  ["Fairy"] = {
+    ["x1"] = {"Normal","Water","Electric","Grass","Ice","Ground","Flying","Psychic","Bug","Rock","Ghost","Fairy"},
+    ["x2"] = {"Fighting","Dragon","Dark"},
+    ["x0.5"] = {"Fire","Poison","Steel"},
+    ["x0"] = {}
   }
 }
