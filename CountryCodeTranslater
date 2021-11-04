@@ -1,4 +1,4 @@
-return {
+local CodeDictionary = {
   ["US"] =  'United States',
   ["GB"] =  'United Kingdom',
   ["CA"] =  'Canada',
@@ -84,3 +84,17 @@ return {
   ["GE"] =  "Georgia",
   ["DE"] =	'Germany'
 }
+
+function CodeDictionary:Translate(Code)
+  if #Code>=3 then
+    return "Incorrect format"
+  end
+  return CodeDictionary[Code]
+end
+
+function CodeDictionary.Translate(Code)
+  if #Code>=3 then
+    return "Incorrect format"
+  end
+  return CodeDictionary[Code]
+end
