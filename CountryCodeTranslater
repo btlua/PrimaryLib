@@ -1,8 +1,8 @@
 return {
-  ["US"] = 'United States',
-  ["GB"] = 'United Kingdom',
-  ["CA"] = 'Canada',
-  ["AF"] = 'Afghanistan',
+  ["US"] =  'United States',
+  ["GB"] =  'United Kingdom',
+  ["CA"] =  'Canada',
+  ["AF"] =  'Afghanistan',
   ["AX"] =	'Aland Islands',
   ["AL"] =	'Albania',
   ["DZ"] =	'Algeria',
@@ -55,7 +55,7 @@ return {
   ["CD"] =	'Congo (DRC)',
   ["CK"] =	'Cook Islands',
   ["CR"] =	'Costa Rica',
-  ["CI"] ='Ivory Coast',
+  ["CI"] =  'Ivory Coast',
   ["HR"] =	'Croatia',
   ["CW"] =	'Curaçao',
   ["CY"] =	'Cyprus',
@@ -80,7 +80,7 @@ return {
   ["PF"] =	'French Polynesia',
   ["TF"] =	'French Southern Territories',
   ["GA"] =	'Gabon',
-  ["GM"] = "Gambia",
-  ["GE"] = "Georgia",
+  ["GM"] =  "Gambia",
+  ["GE"] =  "Georgia",
   ["DE"] =	'Germany'
 }
